@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutorial — P7Store</title>
+  <meta name="description" content="Aprenda passo a passo a configurar o P7Store e usar o Digest, o PreciCalc, o FullTame e o AtendIA — cada aula no seu ritmo, com o app aberto ao lado." />
+  <meta name="theme-color" content="#0f172a" />
+  <meta property="og:title" content="Tutorial — P7Store" />
+  <meta property="og:description" content="Passo a passo para configurar o P7Store e dominar o Digest, o PreciCalc, o FullTame e o AtendIA." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body class="tutorial-body">
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="P7Store" class="brand__logo" />
+        <span class="brand__name">P7Store</span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu" id="nav-toggle">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav__menu" aria-label="Menu principal">
+        <a href="index.html#sobre">Como funciona</a>
+        <a href="index.html#apps">Apps</a>
+        <a href="tutorial.html">Tutorial</a>
+        <a href="index.html#planos">Planos</a>
+        <a href="index.html#contato">Contato</a>
+        <a class="btn btn--primary btn--sm" href="https://p7store.vercel.app/auth">Testar gratuitamente</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container tutorial-hero">
+      <p class="tutorial-hero__eyebrow">Aprenda no seu ritmo</p>
+      <h1>Tutorial</h1>
+      <p class="tutorial-hero__lead">
+        Cada aula é um passo a passo do app de verdade. Dica: abra o app numa aba
+        e o tutorial em outra — vá lendo e fazendo.
+      </p>
+      <p class="tutorial-hero__cta">
+        <a class="btn btn--primary" href="https://p7store.vercel.app/auth" target="_blank" rel="noopener">Abrir o P7Store em outra aba</a>
+      </p>
+    </section>
+
+    <section class="container tutorial-app">
+      <div class="tutorial-app__layout">
+        <aside class="tutorial-app__sidebar">
+          <div class="tutorial-app__groups" id="tutorial-groups"></div>
+        </aside>
+        <article class="tutorial-app__content" id="tutorial-content"></article>
+      </div>
+    </section>
+
+    <section class="container tutorial-tip">
+      <div class="tutorial-tip__card">
+        <h2>Vai começar?</h2>
+        <p>
+          Se ainda não criou sua conta, entre no P7Store e siga a aula
+          <strong>Configuração inicial</strong>. Ela usa a lâmpada de instruções que o
+          app te mostra e a engrenagem de configurações — os mesmos lugares que o
+          próprio sistema usa para te guiar.
+        </p>
+        <a class="btn btn--outline" href="tutorial.html#p7store-basico">Ir para a primeira aula</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="P7Store" class="footer__logo" />
+        <span>P7Store</span>
+      </div>
+      <nav class="footer__nav" aria-label="Rodapé">
+        <a href="index.html#sobre">Como funciona</a>
+        <a href="index.html#apps">Apps</a>
+        <a href="tutorial.html">Tutorial</a>
+        <a href="index.html#planos">Planos</a>
+        <a href="index.html#contato">Contato</a>
+        <a href="https://p7store.vercel.app/auth">Entrar</a>
+      </nav>
+      <p class="footer__note">© <span id="year">2026</span> P7Store. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="tutorials.js"></script>
+  <script src="tutorial.js"></script>
+</body>
+</html>
