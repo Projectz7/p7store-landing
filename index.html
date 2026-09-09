@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P7Store — Uma assinatura, várias dores do seu negócio resolvidas</title>
+  <meta name="description" content="P7Store é uma loja inteira de apps empresariais com uma única assinatura: gestão, precificação, atendimento e mais — prontos para usar no navegador ou no celular." />
+  <link rel="canonical" href="https://p7store.vercel.app/" />
+  <meta property="og:title" content="P7Store — Uma assinatura, várias dores do seu negócio resolvidas" />
+  <meta property="og:description" content="Uma loja inteira de apps empresariais com uma única assinatura. Teste grátis no navegador ou no celular." />
+  <meta property="og:url" content="https://p7store.vercel.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://p7store.vercel.app/assets/icon-512.png" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#hero">Pular para o conteúdo</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#hero">
+        <img src="assets/logo.png" alt="P7Store" class="brand__logo" />
+        <span class="brand__name">P7Store</span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav__menu" aria-label="Menu principal">
+        <a href="#sobre">Como funciona</a>
+        <a href="#download">Acesso</a>
+        <a href="#apps">Apps</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+        <a class="btn btn--primary btn--sm" href="https://p7store.vercel.app/auth">Testar gratuitamente</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="hero__eyebrow">Loja de apps empresariais</p>
+          <h1>Uma assinatura, várias dores do seu negócio resolvidas.</h1>
+          <p class="hero__sub">
+            Hoje cada dor exige um app diferente, vendido por empresas diferentes, com contrato e
+            assinatura separados. O P7Store inverte isso: uma assinatura única dá acesso a uma loja
+            inteira de ferramentas — e novas entram o tempo todo.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="https://p7store.vercel.app/auth">Testar gratuitamente</a>
+            <a class="btn btn--ghost btn--lg" href="#apps">Ver os apps</a>
+          </div>
+          <p class="hero__note">Sem cartão de crédito para começar. Use direto no navegador.</p>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="phone">
+            <div class="phone__status"><span></span><span></span><span></span></div>
+            <div class="phone__grid">
+              <div class="phone__card phone__card--md"><span></span><span></span><span></span></div>
+              <div class="phone__card phone__card--lg"><span></span><span></span><span></span></div>
+              <div class="phone__card phone__card--md"><span></span><span></span><span></span></div>
+              <div class="phone__card phone__card--lg"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SOBRE / CONTRASTE -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Menos contratos, mais dores resolvidas</h2>
+          <p class="section__lede">O problema não é falta de ferramenta. É ter uma ferramenta por dor — cada uma exigindo contrato, assinatura e treinamento próprios.</p>
+        </div>
+        <div class="compare">
+          <div class="compare__col compare__col--before">
+            <h3>Como costuma ser</h3>
+            <ul>
+              <li>Um app de gestão comprado por uma empresa…</li>
+              <li>Outro de precificação, de outro fornecedor…</li>
+              <li>Mais um de atendimento, de outro contrato…</li>
+              <li>E cada um com assinatura, boleto e acesso separados.</li>
+            </ul>
+          </div>
+          <div class="compare__arrow" aria-hidden="true">→</div>
+          <div class="compare__col compare__col--after">
+            <h3>Com o P7Store</h3>
+            <ul>
+              <li>Uma assinatura única abre uma loja inteira de apps.</li>
+              <li>Gestão, precificação, atendimento e o que vier depois.</li>
+              <li>Um só acesso, no navegador ou no celular.</li>
+              <li>Novas ferramentas entram sem contrato novo.</li>
+            </ul>
+          </div>
+        </div>
+        <p class="section__tail">
+          E não são ferramentas isoladas: os apps da loja se conversam. Um serviço pode ser precificado
+          em um app e, ao ser aprovado, seguir automaticamente para o próximo app do fluxo — sem
+          digitar o cliente de novo.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. DOWNLOAD / ACESSO -->
+    <section id="download" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Do navegador ao ícone na tela inicial</h2>
+          <p class="section__lede">Escolha como prefere acessar. O P7Store está sempre à distância de um clique.</p>
+        </div>
+        <div class="cards cards--2">
+          <article class="card">
+            <div class="card__icon">🌐</div>
+            <h3>Usar no navegador</h3>
+            <p>Sem download, sem instalação. Abra o link e comece a usar no computador ou no celular.</p>
+            <a class="btn btn--primary btn--sm" href="https://p7store.vercel.app/auth">Abrir P7Store</a>
+          </article>
+          <article class="card">
+            <div class="card__icon">📱</div>
+            <h3>Instalar no celular</h3>
+            <p>Transforme o P7Store em um app de verdade, direto do navegador do celular.</p>
+            <ol class="steps">
+              <li>No Safari (iPhone): toque em <strong>Compartilhar</strong> e em <strong>Adicionar à Tela de Início</strong>.</li>
+              <li>No Chrome (Android): toque no menu <strong>⋮</strong> e em <strong>Instalar app</strong>.</li>
+              <li>Pronto — o ícone fica na tela inicial como qualquer app.</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. FERRAMENTAS -->
+    <section id="apps" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Uma loja que cresce com o seu negócio</h2>
+          <p class="section__lede">Cada app resolve uma dor diferente. Juntos, cobrem o dia a dia da sua empresa.</p>
+        </div>
+        <div class="cards cards--grid">
+          <article class="card">
+            <div class="card__icon card__icon--fulltame">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <h3>FullTame</h3>
+            <p>Acompanhe serviços, fotos e prazos em campo, com tudo registrado no pedido do início ao fim.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon card__icon--digest">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+            </div>
+            <h3>Digest</h3>
+            <p>Gestão de clientes e obras em um só lugar, com fluxos que não deixam informação para trás.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon card__icon--precicalc">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            </div>
+            <h3>Precicalc</h3>
+            <p>Monte propostas comerciais com preços e totais calculados automaticamente, prontas para enviar.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon card__icon--atendia">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 01-8 8H5l-2 2V4a8 8 0 018-8 8 8 0 018 8z"/></svg>
+            </div>
+            <h3>AtendIA</h3>
+            <p>Atendimento que responde na hora, organiza conversas e mantém seus clientes bem atendidos.</p>
+          </article>
+          <article class="card card--ghost">
+            <div class="card__icon card__icon--plus">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+            <h3>Mais em desenvolvimento</h3>
+            <p>A loja está crescendo. Novas ferramentas entram para assinantes sem burocracia.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PLANOS -->
+    <section id="planos" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Um plano, a loja toda</h2>
+          <p class="section__lede">Preços simples. Quanto mais longo o plano, menor o custo por mês — e maior a prioridade das suas sugestões.</p>
+        </div>
+        <div class="plans">
+          <article class="plan">
+            <h3 class="plan__name">Mensal</h3>
+            <p class="plan__price"><strong>R$ 89,90</strong><span>/mês</span></p>
+            <p class="plan__meta">Pague mês a mês, cancele quando quiser.</p>
+            <a class="btn btn--outline btn--sm" href="https://p7store.vercel.app/auth">Testar gratuitamente</a>
+          </article>
+          <article class="plan">
+            <h3 class="plan__name">Trimestral</h3>
+            <p class="plan__price"><strong>R$ 249,90</strong><span>/3 meses</span></p>
+            <p class="plan__meta">Equivale a R$ 83,30 por mês.</p>
+            <a class="btn btn--outline btn--sm" href="https://p7store.vercel.app/auth">Testar gratuitamente</a>
+          </article>
+          <article class="plan plan--featured">
+            <p class="plan__badge">Melhor valor</p>
+            <h3 class="plan__name">Anual</h3>
+            <p class="plan__price"><strong>R$ 899,90</strong><span>/12 meses</span></p>
+            <p class="plan__meta">Equivale a R$ 74,99 por mês — o melhor custo da loja.</p>
+            <a class="btn btn--primary btn--sm" href="https://p7store.vercel.app/auth">Testar gratuitamente</a>
+          </article>
+        </div>
+        <p class="section__tail">
+          Todo assinante pode enviar pedidos de melhoria e sugestões de novos apps. Quem está em
+          planos mais longos tem prioridade maior nessas escolhas.
+        </p>
+      </div>
+    </section>
+
+    <!-- 6. CONTATO -->
+    <section id="contato" class="section">
+      <div class="container container--narrow">
+        <div class="section__head">
+          <h2>Fale com a P7Store</h2>
+          <p class="section__lede">Feedbacks, dúvidas e sugestões de novos apps são lidos pela nossa equipe — toda mensagem conta.</p>
+        </div>
+        <form id="contact-form" class="form" novalidate>
+          <label class="field">
+            <span>Nome</span>
+            <input type="text" name="nome" autocomplete="name" required />
+          </label>
+          <label class="field">
+            <span>E-mail</span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label class="field">
+            <span>Mensagem</span>
+            <textarea name="mensagem" rows="5" required></textarea>
+          </label>
+          <p id="form-status" class="form__status" role="status" aria-live="polite"></p>
+          <button type="submit" class="btn btn--primary btn--lg form__submit">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="P7Store" class="footer__logo" />
+        <span>P7Store</span>
+      </div>
+      <nav class="footer__nav" aria-label="Rodapé">
+        <a href="#sobre">Como funciona</a>
+        <a href="#apps">Apps</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+        <a href="https://p7store.vercel.app/auth">Entrar</a>
+      </nav>
+      <p class="footer__note">© <span id="year">2026</span> P7Store. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
