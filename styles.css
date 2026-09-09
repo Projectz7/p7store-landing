@@ -259,66 +259,18 @@ a {
   color: var(--slate-500);
 }
 
-/* Visual (mock de celular) */
+/* Visual (logo da loja com os vários apps) */
 .hero__visual {
   display: flex;
   justify-content: center;
 }
 
-.phone {
-  width: 240px;
-  padding: 12px;
-  border-radius: 36px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: var(--slate-900);
+.hero__store {
+  width: min(440px, 100%);
+  aspect-ratio: 720 / 760;
+  object-fit: contain;
+  border-radius: 24px;
   box-shadow: var(--shadow);
-  transform: rotate(2deg);
-}
-
-.phone__status {
-  display: flex;
-  gap: 6px;
-  padding: 6px 10px 14px;
-}
-
-.phone__status span {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--slate-700);
-}
-
-.phone__status span:first-child {
-  background: #64748b;
-}
-
-.phone__grid {
-  display: grid;
-  gap: 10px;
-}
-
-.phone__card {
-  display: grid;
-  gap: 8px;
-  background: var(--slate-800);
-  border-radius: 14px;
-  padding: 14px;
-}
-
-.phone__card span {
-  display: block;
-  height: 10px;
-  border-radius: 5px;
-  background: var(--slate-700);
-}
-
-.phone__card span:first-child {
-  background: var(--primary);
-  width: 55%;
-}
-
-.phone__card--lg span:last-child {
-  width: 80%;
 }
 
 /* ---------- Sections ---------- */
