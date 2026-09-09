@@ -836,17 +836,15 @@ a {
   border-color: rgba(79, 70, 229, 0.35);
   color: var(--white);
 }
-.tutorial-studies__dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
+.tutorial-studies__icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
   flex: none;
+  object-fit: cover;
+  background: var(--slate-800);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
-.tutorial-studies__dot--indigo { background: var(--primary-soft); }
-.tutorial-studies__dot--azul   { background: #38bdf8; }
-.tutorial-studies__dot--ambar  { background: #fbbf24; }
-.tutorial-studies__dot--verde  { background: #4ade80; }
-.tutorial-studies__dot--roxo   { background: #c084fc; }
 .tutorial-studies__info {
   display: flex;
   flex-direction: column;

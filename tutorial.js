@@ -4,6 +4,14 @@
   var TUTORIALS = window.TUTORIALS || [];
   var STORE_KEY = "p7store_tutorial_progress";
 
+  var APP_ICONS = {
+    P7Store: "assets/logo.png",
+    Digest: "assets/apps/digest.png",
+    "Precicalc": "assets/apps/precicalc.png",
+    FullTame: "assets/apps/fulltame.png",
+    AtendIA: "assets/apps/atendia.png"
+  };
+
   // ---------- Menu mobile ----------
   var toggle = document.getElementById("nav-toggle");
   var menu = document.getElementById("nav-menu");
@@ -81,9 +89,11 @@
         a.className = "tutorial-studies__item";
         if (t.id === currentId) a.classList.add("is-active");
 
-        var dot = document.createElement("span");
-        dot.className = "tutorial-studies__dot tutorial-studies__dot--" + t.cor;
-        a.appendChild(dot);
+        var icon = document.createElement("img");
+        icon.className = "tutorial-studies__icon";
+        icon.src = APP_ICONS[t.app] || "assets/logo.png";
+        icon.alt = "";
+        a.appendChild(icon);
 
         var info = document.createElement("span");
         info.className = "tutorial-studies__info";
