@@ -463,6 +463,25 @@ a {
   margin-bottom: 16px;
 }
 
+.card__badge {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  background: var(--slate-800);
+}
+
+.card__logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .card__icon {
   width: 46px;
   height: 46px;
@@ -471,8 +490,6 @@ a {
   align-items: center;
   justify-content: center;
   margin-bottom: 18px;
-  background: rgba(79, 70, 229, 0.12);
-  color: var(--primary-soft);
 }
 
 .card__icon svg {
@@ -480,11 +497,10 @@ a {
   height: 24px;
 }
 
-.card__icon--fulltame { color: #4ade80; background: rgba(74, 222, 128, 0.12); }
-.card__icon--digest { color: #60a5fa; background: rgba(96, 165, 250, 0.12); }
-.card__icon--precicalc { color: #fbbf24; background: rgba(251, 191, 36, 0.12); }
-.card__icon--atendia { color: #c084fc; background: rgba(192, 132, 252, 0.12); }
-.card__icon--plus { color: var(--slate-400); background: rgba(148, 163, 184, 0.1); }
+.card__icon--plus {
+  color: var(--primary-soft);
+  background: rgba(80, 89, 122, 0.3);
+}
 
 .card--ghost {
   border-style: dashed;
